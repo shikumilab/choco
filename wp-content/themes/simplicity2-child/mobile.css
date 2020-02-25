@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*ここにモバイルのスタイルを書く*/
+
+
+
+/* メインカラムの幅を広げて中央寄せにする */
+#header-in, #navi-in, #body-in, #footer-in{
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+}
+
+#main {
+width: 98%;
+}
+
+/* サイト概要（キャッチフレーズ）をヘッダー内の下揃えにする方法 */
+#site-description{
+ left:25px;
+ position: absolute; bottom: 0; 
+} 
+
+
+.article h2 {
+    font-size: 25px;
+	font-weight: bold;
+	margin: 23px 0 0;
+	padding: 8px 0 7px 10px;
+	box-shadow: 0 5px 6px -6px rgba(0,0,0,.3);
+}
+ 
+.article h3{
+	font-size: 19px;
+	margin: 5px 5px 5px 5px;
+}
+
+.widget-over-breadcrumbs #searchform{
+  display: inline;
+}
+
+div.sns-group-viral ul.snsb li a {
+width: 110px;
+}
+
+/* サイト概要の文字に黒枠をつける */
+#site-description{ 
+ text-shadow:
+ 0px -0.5px #000,
+ 0.5px 0px #000,
+ 0px 0.5px #000,
+ -0.5px  0.5px #000;
+}
+

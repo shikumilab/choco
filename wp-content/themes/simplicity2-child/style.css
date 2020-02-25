@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+/*!
+Theme Name: Simplicity2 child
+Template:   simplicity2
+Version:    20151225
+*/
+
+/* Simplicity子テーマ用のスタイルを書く */
+
+/* グローバルメニューを非表示に */
+#navi {
+  display: none;
+}
+
+
+/* 見出し装飾 */
+.article h2 {
+    background-color: #4d2519;
+    border-left: 0 none;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+.article h3,
+#comment-area h3,
+#related-entries h3{
+  font-size:21px;
+  border-bottom:5px solid #4d2519;
+  padding:3px 0;
+}
+
+
+
+
+
+
+
+
+/* サイト概要の文字に黒枠をつける */
+#site-description{
+text-shadow:
+ 0px -0.5px #000,
+ 0.5px 0px #000,
+ 0px 0.5px #000,
+ -0.5px  0.5px #000;
+}
+
+/* タイトルリンクをヘッダー画像全体に設定する */
+#header-in{ 
+ width: 100%;
+ margin: 0 0; 
+} 
+
+#site-title a{
+ display: block;
+ position:absolute;
+ top:0;
+ left:0px;
+ width:100%;
+ height:100%; 
+text-indent:-999px;
+}
+
+/* スマホハンバーガーメニューを非表示にする */
+#mobile-menu a{
+    display: none;
+}
+
+
+
+
+
+/* サイト概要（キャッチフレーズ）をヘッダー内の下揃えにする方法 */
+#site-description{
+ left:80px;
+ position: absolute; bottom: 0; 
+} 
+/* 横の場所は、left、rightを使う。 また幅をメインの幅と一緒にしたければ、 widthにて設定する。 */
+
+
+/* 記事間に線を引く */
+#main .entry {
+ border-bottom: 1px solid #F0F0F0;
+ padding-bottom: 15px;
+}
+
+
+/* mainとsidebarの枠線を消す */
+#main,#sidebar{
+ border:none !important;
+}
+
+/* WEBフォントを適用する */
+body {
+ font-family: 'Quicksand', "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ' , Meiryo , Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif; 
+}
