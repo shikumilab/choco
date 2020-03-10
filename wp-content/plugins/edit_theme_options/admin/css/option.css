@@ -1,0 +1,228 @@
+#to-wrapper {
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	position: relative;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin-top: 30px;
+}
+#to-wrapper #to-tabs {
+	width: 20%;
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#to-wrapper #to-items {
+	width: 80%;
+	float: right;
+	border-left: 1px solid #dfdfdf;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#to-wrapper #to-tabs ul,
+#to-wrapper #to-tabs ul li {
+	margin: 0;
+	padding: 0;
+}
+#to-wrapper #to-tabs ul li {
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#to-wrapper #to-tabs ul li[id^="tab-en-"] {
+	background-color: #fffbf7;
+}
+#to-wrapper #to-tabs ul li > span.label {
+	float: left;
+	width: 50%;
+}
+#to-wrapper #to-tabs ul li > span.label.hide {
+	display: none;
+}
+#to-wrapper #to-tabs ul li > span.sub {
+	float: right;
+	width: 50%;
+	color: #0074A2;
+	font-size: 0.9em;
+	display: block;
+	text-align: right;
+}
+#to-wrapper #to-tabs ul li:hover {
+	background-color: #f5f5f5;
+	color: #0074a2;
+	cursor: pointer;
+}
+#to-wrapper #to-tabs ul li.active,
+#to-wrapper #to-tabs ul li.active > span {
+	background-color: #0074A2;
+	color: #fff;
+}
+
+#to-wrapper #to-items div.to-item {
+	display: none;
+}
+#to-wrapper #to-items div.to-item[id^="en-"] {
+	background-color: #fffbf7;
+}
+#to-wrapper #to-items div.active {
+	display: block;
+}
+
+
+#to-wrapper #to-items h3 {
+	margin: 0;
+	padding: 26px 10px;
+	font-size: 22px;
+	line-height: 22px;
+	border-bottom: 1px solid #eee;
+}
+#to-wrapper #to-items h3 span.sub {
+	display: inline-block;
+	margin-left: 20px;
+	font-size: 14px;
+	color: #0074A2;
+	position: relative;
+	top: -3px;
+}
+
+table.form-table {
+	width: 100%;
+	margin-top: 0;
+}
+table.form-table tr th,
+table.form-table tr td {
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+table.form-table tr.line:nth-of-type(1) {
+	margin-top: 0;
+}
+table.form-table tr.line.title th {
+	padding: 15px 10px;
+}
+table.form-table tr.line th {
+	border-top: 1px solid #d3d3d3;
+	padding: 5px 10px;
+	background-color: #ddd;
+	font-weight: bold;
+}
+table.form-table tr.line.sub th {
+	padding: 1px 10px 2px 10px;
+}
+table.form-table tr.text input {
+	width: 100%;
+}
+table.form-table tr.text span.color {
+	width: 1.2em;
+	display: inline-block;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+	border-radius: 2px;
+}
+table.form-table tr.image span.thumbnail {
+	padding: 1%;
+	border: 1px dashed #ccc;
+	display: inline-block;
+	margin-top: 5px;
+	line-height: 1;
+}
+table.form-table tr.image span.thumbnail img {
+	max-width: 206px;
+}
+table.form-table tr.image input.btn-add-image {
+	width: 15%;
+}
+table.form-table tr.image input.image-text {
+	width: 83%;
+}
+table.form-table tr.select select {
+	width:100px;
+}
+table.form-table tr.textarea textarea {
+	width: 90%;
+	height: 200px;
+	font-size: 0.9em;
+}
+table.form-table th span.scode {
+	display: block;
+	margin-top: 5px;
+	color: #0074A2;
+}
+table.form-table span.note {
+	font-weight: normal;
+	display: block;
+	color: #0074A2;
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+table.form-table tr.right th {
+	text-align: right;
+}
+table.form-table tr.right th,
+table.form-table tr.right td {
+	background-color: #f9f9f9;
+}
+table.form-table tr.textarea.half textarea {
+	height: 100px;
+}
+
+table.form-table tr.radio.layout td {
+	height: 30px;
+	vertical-align: middle;
+}
+table.form-table tr.radio.layout td input {
+	position: relative;
+	top: -2px;
+}
+table.form-table tr.radio td label {
+	margin-right: 10px;
+}
+table.form-table tr.radio.layout td label {
+	margin-right: 20px;
+	padding: 5px;
+	display: inline-block;
+	border-radius: 2px;
+}
+table.form-table tr.radio.layout td input.on+label {
+	background: #F6E1C6;
+}
+table.form-table tr.radio.layout td label,
+table.form-table tr.radio.layout td label img {
+	line-height: 30px;
+	height: 30px;
+}
+table.form-table tr.select select.off {
+	color: #aaa;
+	background-color: #f9f9f9;
+}
+
+p.submit.to {
+	margin: 0;
+	padding: 0;
+}
+p.submit.to input#submit {
+	padding: 10px 40px;
+	height: initial;
+	font-size: 14px;
+}
+#to-wrapper+p.submit.to {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.clf,
+#to-wrapper #to-tabs ul li {
+	width:100%;
+}
+.clf:after,
+#to-wrapper #to-tabs ul li:after {
+	content: ""; 
+	display: block; 
+	clear: both;
+}
